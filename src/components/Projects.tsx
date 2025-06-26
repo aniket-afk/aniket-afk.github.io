@@ -20,6 +20,7 @@ const Projects = () => {
         'Streamlit',
         'FastAPI',
         'AWS EC2',
+        'AWS S3',
         'Pinecone',
         'Snowflake',
         'PostgreSQL (RDS)',
@@ -31,7 +32,7 @@ const Projects = () => {
       github: 'https://github.com/BigDataIA-Fall2024-TeamA5/Final-Project',
       icon: <Flag className="h-8 w-8" />,
       color: 'text-red-600',
-      stats: { queries: '15K+', agents: '5+', accuracy: '98%' },
+      stats: { Scale: '190 PDFs', agents: '3+', accuracy: '70%' },
     },
     {
       title: 'End-to-End Data Pipeline',
@@ -52,7 +53,7 @@ const Projects = () => {
         'https://github.com/aniket-afk/Multi-Agent-Document-Vector-Search',
       icon: <Brain className="h-8 w-8" />,
       color: 'text-purple-600',
-      stats: { performance: '95%', scale: '1M+ docs', speed: '<100ms' },
+      stats: { performance: '95%', scale: '90 PDFs', speed: '<100ms' },
     },
     {
       title: 'Hospital Data Analysis System',
