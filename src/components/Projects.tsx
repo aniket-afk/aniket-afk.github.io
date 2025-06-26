@@ -41,7 +41,7 @@ const Projects = () => {
       github: 'https://github.com/aniket-afk/End-to-End-Data-Pipeline',
       icon: <Database className="h-8 w-8" />,
       color: 'text-green-600',
-      stats: { throughput: '10TB/day', uptime: '99.9%', latency: '<5s' },
+      stats: { throughput: '1M records', uptime: '98%', latency: '<5s' },
     },
     {
       title: 'Multi-Agent Document Vector Search',
