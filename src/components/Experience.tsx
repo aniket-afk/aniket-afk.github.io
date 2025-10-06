@@ -4,6 +4,13 @@ import { Calendar, MapPin, Briefcase } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
+      title: 'AI Engineer/Developer',
+      company: 'Humanitarians AI',
+      location: 'Boston, MA',
+      period: 'June 2025 - Current',
+      type: 'Full-time',
+    },
+    {
       title: 'Data Analyst - Admissions Assistant',
       company: 'Northeastern University',
       location: 'Boston, MA',
@@ -23,9 +30,9 @@ const Experience = () => {
     <section id="experience" className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-20">
-          <h2 className="text-4xl md:text-5xl font-display font-bold text-gray-900 mb-6">
+            <h2 className="text-4xl md:text-5xl font-display font-bold text-gray-900 mb-6">
             Professional Experience
-          </h2>
+            </h2>
           <div className="w-24 h-1 bg-primary-500 mx-auto mb-8 rounded-full"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Building tomorrow's data infrastructure with cutting-edge

@@ -1,16 +1,36 @@
 import React from 'react';
 import {
   Github,
-  ExternalLink,
   Flag,
   Database,
   Brain,
   BarChart3,
-  Users,
+  Plane,
 } from 'lucide-react';
 
 const Projects = () => {
   const projects = [
+    {
+      title: 'U.S. Flight Delays & Cancellations Dashboard',
+      description:
+        'Interactive Tableau dashboard analyzing U.S. domestic flight delays and cancellations using DOT BTS data, with end-to-end ETL pipelines and rich visual insights into causes, trends, and airline/airport performance.',
+      tech: ['Python', 'SQL', 'Pandas', 'Tableau'],
+      dashboard:
+        'https://public.tableau.com/app/profile/aniket.patole/viz/FlightDelayAnalysis_17586928563890/FlightDelayDashboard', // replace with actual Tableau Public link
+      icon: <Plane className="h-8 w-8" />,   // you could use an airplane/travel icon
+      color: 'text-blue-600',
+      stats: { records: '~1M flights', scope: 'US domestic', insights: 'Weather delays spike in winter; ATL strong on-time performance' },
+    },
+    {
+      title: 'Boston Transit Equity Dashboard',
+      description:
+        'Interactive Power BI dashboard integrating MBTA GTFS real-time data, demographics, and accessibility metrics to analyze transit performance and equity across Boston neighborhoods.',
+      tech: ['Python', 'Airflow', 'AWS', 'Snowflake', 'Power BI'],
+      github: 'https://github.com/aniket-afk/boston-transit-equity-dashboard', // replace with actual repo link if public
+      icon: <Train className="h-8 w-8" />,   // transit/train icon works well
+      color: 'text-green-600',
+      stats: { coverage: 'MBTA Real-Time', scale: '20+ neighborhoods', insights: 'Identified delays linked to socioeconomic factors' },
+    },
     {
       title: 'Paddock Pal - Formula 1 Regulation Assistant 🏎️',
       description:
@@ -70,7 +90,7 @@ const Projects = () => {
       github: 'https://github.com/aniket-afk/Hospital-Data-Analysis-System',
       icon: <BarChart3 className="h-8 w-8" />,
       color: 'text-blue-600',
-      stats: { hospitals: '500+', insights: '40+', efficiency: '+30%' },
+      stats: { Patients: '500+', insights: '40+', efficiency: '+30%' },
     },
   ];
 
