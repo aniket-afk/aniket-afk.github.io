@@ -7,5 +7,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  build: { outDir: 'docs' }
+  build: { outDir: 'docs', emptyOutDir: false }
 });
