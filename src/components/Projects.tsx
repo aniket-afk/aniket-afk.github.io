@@ -6,6 +6,7 @@ import {
   Brain,
   BarChart3,
   Plane,
+  Train,
 } from 'lucide-react';
 
 const Projects = () => {
