@@ -46,7 +46,7 @@ const Header = () => {
           <div className="flex items-center space-x-3">
             <div className="w-8 h-8 rounded-full overflow-hidden border-2 border-primary-500">
               <img
-                src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
+                src="/docs/assets/Profile-D5U429Ku.jpeg"
                 alt="Aniket Patole"
                 className="w-full h-full object-cover"
               />

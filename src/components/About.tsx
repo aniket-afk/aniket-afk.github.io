@@ -1,5 +1,6 @@
 import React from 'react';
 import { Code, Database, Brain, TrendingUp } from 'lucide-react';
+import goffyImage from '../goffy.jpg';
 
 const About = () => {
   const highlights = [
@@ -85,9 +86,9 @@ const About = () => {
           <div className="flex justify-center lg:justify-end">
             <div className="w-80 h-80 rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="Aniket Patole - Professional"
-                className="w-full h-full object-cover"
+                src={goffyImage}
+                alt="Aniket Patole"
+                className="w-full h-full object-cover object-[center_55%]"
               />
             </div>
           </div>

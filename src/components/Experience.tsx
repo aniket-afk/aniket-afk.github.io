@@ -4,6 +4,13 @@ import { Calendar, MapPin } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
+      title: 'ML Data Associate 3',
+      company: 'Amazon - AGI Data',
+      location: 'Boston, MA',
+      period: '2025 - Current',
+      type: 'Full-time',
+    },
+    {
       title: 'AI Engineer/Developer',
       company: 'Humanitarians AI',
       location: 'Boston, MA',

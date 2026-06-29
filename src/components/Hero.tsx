@@ -20,7 +20,7 @@ const Hero = () => {
               <img
                 src={profileImage}
                 alt=""
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-[center_22%]"
               />
             </div>
           </div>
@@ -31,6 +31,7 @@ const Hero = () => {
             <span className="bg-gradient-to-r from-primary-600 to-primary-500 bg-clip-text text-transparent">
               Aniket Patole
             </span>
+          
           </h1>
 
           {/* Subtitle */}
