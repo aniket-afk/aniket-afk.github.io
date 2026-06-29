@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
+import profileImage from '../Profile.jpeg';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -46,7 +47,7 @@ const Header = () => {
           <div className="flex items-center space-x-3">
             <div className="w-8 h-8 rounded-full overflow-hidden border-2 border-primary-500">
               <img
-                src="/docs/assets/Profile-D5U429Ku.jpeg"
+                src={profileImage}
                 alt="Aniket Patole"
                 className="w-full h-full object-cover"
               />
